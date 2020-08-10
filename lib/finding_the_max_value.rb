@@ -2,7 +2,7 @@ def find_max_value(array)
   count = 0
   mav_v = 0
   while count < array.length do
-    if array[count] > max _v
+    if array[count] > max_v
       max_v = array[count]
     end
     count += 1
